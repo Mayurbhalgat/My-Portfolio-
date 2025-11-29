@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mayur — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
     <!-- HEADER / NAVIGATION -->
     <header>
-        <div class="logo">My Portfolio</div>
+        <div class="logo">Mayur Bhalgat</div>
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
@@ -20,94 +20,90 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero">
-        <!-- Insert your photo here -->
-        <img src="Profile_Pic.jpg" alt="My Photo" class="profile-img">
+    <section class="hero hidden">
+        <img src="Profile_Pic.jpg" alt="My Photo" class="profile-img" />
 
-        <h1>Hello, I'm <span>Mayur Shailesh Bhalgat</span></h1>
-        <p>Web Developer | Engineering Student | Business Man</p>
+        <h1>Hello, I'm Mayur<span id="typing"></span></h1>
+        <p class="tagline">Web Developer | Engineering Student | Business Man</p>
 
-       
+        <a href="#about" class="btn">Explore More</a>
     </section>
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="about">
+    <section id="about" class="about hidden">
         <h2>About Me</h2>
 
         <p>
-            I am a passionate <strong>E&TC Engineering</strong> who loves expressing emotions,
-            sharing knowledge, and inspiring people with meaningful knowledge.  
+            I am a passionate <strong>E&TC Engineer</strong> who loves technology,
+            expressing ideas, sharing knowledge, and inspiring people with meaningful work.
         </p>
 
         <p>
             Currently, I am pursuing my degree at  
-            <strong>MIT Acadmy of Engineering</strong>.
-            My field of study is <strong>Electronics And Telecommunication</strong>.
+            <strong>MIT Academy of Engineering</strong>, specializing in
+            <strong>Electronics & Telecommunication</strong>.
         </p>
 
-        <p>I aim to build a career in Embadded Tech and Developer.</p>
+        <p>I aim to build a career in Embedded Technology and Development.</p>
     </section>
 
     <!-- PROJECT SECTION -->
-    <section id="projects" class="projects">
+    <section id="projects" class="projects hidden">
         <h2>My Projects</h2>
 
         <div class="project-grid">
-            <div class="project-card">
-                <h3>Project Title 1 :- Hand Gesture Recognition System </h3>
-                <p>This project focuses on developing a smart health-monitoring device that continuously measures essential vital parameters using a BP monitor, SpO₂ sensor, and temperature sensor. The system is designed to assist patients, elderly individuals, and people with medical conditions by providing real-time tracking of blood pressure, oxygen saturation, and body temperature. A key feature of the device is its gesture-based emergency alert mechanism, implemented using a strip (flex) sensor attached to the user’s hand. During an emergency, the user can perform a simple hand gesture, which is instantly detected by the flex sensor and used to trigger an automatic alert to caregivers or medical personnel. This hands-free alert capability ensures quick assistance even when the patient is unable to speak or reach a phone, making the device a reliable solution for remote healthcare, personal safety, and continuous medical monitoring. </p>
+            <div class="project-card hidden">
+                <h3>Hand Gesture Recognition System</h3>
+                <p>This project focuses on developing a smart health-monitoring device that continuously measures essential vital parameters using a BP monitor, SpO₂ sensor, and temperature sensor. A gesture-based emergency alert mechanism uses a flex sensor to trigger alerts to caregivers.</p>
             </div>
 
-            <div class="project-card">
-                <h3>Project Title 2 :- Energy genration using solar panel and horizontal wind terbine</h3>
-                <p>This project aims to develop a hybrid renewable energy generation system using a solar panel and a horizontal-axis wind turbine to produce clean and sustainable power. The setup combines the advantages of both solar and wind energy, ensuring continuous electricity generation even when one source is unavailable—solar energy during the day and wind energy whenever airflow is present. The solar panel converts sunlight into electrical energy, while the horizontal wind turbine captures kinetic energy from the wind and converts it into power through a generator. By integrating both systems, the project increases overall efficiency, improves energy reliability, and reduces dependence on conventional power sources. This hybrid model is ideal for rural areas, small households, and off-grid applications, contributing to environmental sustainability and promoting the use of renewable energy technologies..</p>
+            <div class="project-card hidden">
+                <h3>Energy Generation — Solar + Wind</h3>
+                <p>Hybrid renewable energy system combining solar panels and a horizontal-axis wind turbine to provide reliable, off-grid power for rural or small household applications.</p>
             </div>
 
-            <div class="project-card">
-                <h3>Project Title 3:- AI Disease Prdection for Pomogrande Fruit</h3>
-                <p>This project focuses on developing an AI-based system for early disease detection in pomegranate fruits to assist farmers in improving crop health and productivity. The system uses machine learning and image-processing techniques to analyze images of pomegranate leaves and fruits, identifying common diseases such as bacterial blight, fruit spots, and fungal infections. By training a Convolutional Neural Network (CNN) model on a dataset of healthy and diseased samples, the system can automatically classify the disease type with high accuracy. The solution helps farmers take timely actions, reduce crop loss, and minimize the use of unnecessary pesticides. This AI-powered approach provides a fast, affordable, and reliable method for real-time disease monitoring in pomegranate farming, supporting sustainable agriculture and smarter farm management.</p>
+            <div class="project-card hidden">
+                <h3>AI Disease Detection for Pomegranate</h3>
+                <p>AI-based disease detection using image-processing and CNN models to classify pomegranate fruit and leaf diseases, helping farmers take timely actions.</p>
             </div>
         </div>
     </section>
 
     <!-- CERTIFICATES SECTION -->
-    <section id="certificates" class="certificates">
+    <section id="certificates" class="certificates hidden">
         <h2>My Certificates</h2>
 
         <div class="cert-grid">
-
-            <!-- Certificate 1 -->
-            <div class="cert-card">
-                <img src="Screenshot 2025-11-29 153058.png" alt="Certificate 1">
-                <p>Certificate Title 1:- HTML</p>
+            <div class="cert-card hidden">
+                <img src="Screenshot 2025-11-29 153058.png" alt="Certificate 1" />
+                <p>Certificate: HTML</p>
             </div>
 
-            <!-- Certificate 2 -->
-            <div class="cert-card">
-                <img src="Screenshot 2025-11-29 153234.png" alt="Certificate 2">
-                <p>Certificate Title 2 :- CSS</p>
+            <div class="cert-card hidden">
+                <img src="Screenshot 2025-11-29 153234.png" alt="Certificate 2" />
+                <p>Certificate: CSS</p>
             </div>
 
-            <!-- Certificate 3 -->
-            <div class="cert-card">
-                <img src="Screenshot 2025-11-29 153557.png" alt="Certificate 3">
-                <p>Certificate Title 3 :- Industrial IOT</p>
+            <div class="cert-card hidden">
+                <img src="Screenshot 2025-11-29 153557.png" alt="Certificate 3" />
+                <p>Certificate: Industrial IoT</p>
             </div>
-
         </div>
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact hidden">
         <h2>Contact Me</h2>
 
         <p>Email: <strong>bhalgatmayur60@gmail.com</strong></p>
-        <p>Phone: <strong>+91-7020245120</strong></p>
+        <p>Phone: <strong>+91 7020245120</strong></p>
     </section>
 
     <footer>
         <p>© 2025 Mayur Shailesh Bhalgat — All Rights Reserved</p>
     </footer>
 
+    <!-- JS -->
+    <script src="script.js"></script>
 </body>
 </html>
